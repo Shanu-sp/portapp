@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: monospace;
+  background-color: #f4f4f4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  background: white;
+  padding: 40px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name {
+  margin: 0;
+  font-size: 28px;
+}
+
+.role {
+  color: gray;
+  margin-top: 5px;
+}
+
+.intro {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.skills {
+  margin-top: 20px;
+}
+
+.skills span {
+  background: #eee;
+  padding: 5px 10px;
+  margin: 5px;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.projects {
+  margin-top: 20px;
+}
+
+.project-item {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.contact {
+  margin-top: 25px;
+  font-size: 13px;
+  color: #555;
 }
