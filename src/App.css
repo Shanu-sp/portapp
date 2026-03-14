@@ -17,7 +17,7 @@ body {
 
 .card {
   background: white;
-  background: linear-gradient(135deg, #be34f0, #f8fafc);
+  background: linear-gradient(135deg, #d8d5d9, #373737);
   /* padding: 40px; */
   width: 1000px;
   height: 600px;
@@ -52,7 +52,7 @@ body {
 }
 
 .skills:hover {
-  background-color: rgb(120, 122, 123);
+  background-color: rgb(35, 35, 35);
   transition: 0.3s ease;
   transform: scale(1.04);
 }
@@ -163,7 +163,7 @@ body {
 }
 
 .projects-link a:hover {
-  color: rgb(237, 41, 41);
+  color: rgb(241, 41, 41);
 }
 
 .projects-page {

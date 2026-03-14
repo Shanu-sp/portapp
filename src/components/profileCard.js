@@ -20,7 +20,7 @@ function ProfileCard() {
 
       <div className="skills">
         <span>Python</span>
-        <span>React</span>
+        <span>React.js</span>
         <span>Django</span>
         <span>JavaScript</span>
         <span>HTML</span>
@@ -37,6 +37,9 @@ function ProfileCard() {
         <span>Bootstrap</span>
         <span>Authentication and Session Management</span>
         <span>ORM</span>
+        <span>JSON</span>
+        <span>JQuery</span>
+        <span>VS Code</span>
       </div>
 
       {/* <div className="projects">
