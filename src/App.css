@@ -2,6 +2,10 @@ body {
   margin: 0;
   font-family: monospace;
   background-color: #f4f4f4;
+  /* background: linear-gradient(135deg, #eef2ff, #f8fafc); */
+  background: linear-gradient(135deg, #252525, #f8fafc);
+  font-family: Arial, sans-serif;
+
 }
 
 .app {
@@ -13,10 +17,19 @@ body {
 
 .card {
   background: white;
-  padding: 40px;
-  width: 400px;
+  background: linear-gradient(135deg, #be34f0, #f8fafc);
+  /* padding: 40px; */
+  width: 1000px;
+  height: 600px;
   border-radius: 10px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
 }
 
 .name {
@@ -25,7 +38,7 @@ body {
 }
 
 .role {
-  color: gray;
+  color: rgb(30, 29, 29);
   margin-top: 5px;
 }
 
@@ -36,6 +49,12 @@ body {
 
 .skills {
   margin-top: 20px;
+}
+
+.skills:hover {
+  background-color: rgb(120, 122, 123);
+  transition: 0.3s ease;
+  transform: scale(1.04);
 }
 
 .skills span {
@@ -59,5 +78,123 @@ body {
 .contact {
   margin-top: 25px;
   font-size: 13px;
+  color:white;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.email{
+  padding-top: 10px;
+  color:white;
+  height: 50px;
+  margin-top:5px;
+  display: block;
+  color: #555;
+  text-decoration: none;
+  background-color: rgb(36, 35, 35);
+  border-radius: 2px;
+  text-align: center;
+}
+
+.email:hover {
+  background-color: rgb(120, 122, 123);
+  color: black;
+  transition: 0.3s ease;
+  transform: scale(1.04);
+ 
+}
+.git{
+  color:white;
+  padding-top: 10px;
+  height: 50px;
+  margin-top: 10px;
+  display: block;
+  color: #555;
+  text-decoration: none;
+  background-color: rgb(36, 35, 35);
+  border-radius: 2px;
+}
+.git:hover {
+  background-color: rgb(120, 122, 123);
+  color: black;
+  transition: 0.3s ease;
+  transform: scale(1.04);
+  
+ 
+}
+
+.linked{
+  color:white;
+  padding-top: 10px;
+  height: 50px;
+  margin-top: 10px;
+  display: block;
+  color: #555;
+  text-decoration: none;
+  background-color: rgb(36, 35, 35);
+  border-radius: 2px;
+}
+.linked:hover {
+  background-color: rgb(120, 122, 123);
+  color: black;
+  transition: 0.3s ease;
+  transform: scale(1.04);
+}
+
+
+
+
+.project-description {
+  margin-left: 18px;
+  font-size: 14px;
   color: #555;
 }
+
+
+.projects-link a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #151516;
+}
+.projects-link{
+  margin-top: 20px;
+}
+
+.projects-link a:hover {
+  color: rgb(237, 41, 41);
+}
+
+.projects-page {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.link-button {
+  display: inline-block;
+  padding: 10px 15px;
+  margin-top: 10px;
+  background-color: #272829;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+p {
+  line-height: 1.8;
+}
+
+
